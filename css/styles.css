@@ -510,3 +510,15 @@ footer {
         max-width: 60px;
     }
 }
+
+.video-section {
+    background-color: #f8f9fa;
+}
+
+.video-section video {
+    transition: transform 0.3s ease;
+}
+
+.video-section video:hover {
+    transform: scale(1.02);
+}
